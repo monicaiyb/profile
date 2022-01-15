@@ -1,21 +1,23 @@
 body{
     position: relative;
-    width: 1440px;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     
     background: #FFFFFF;
 }
 .header{
     position: absolute;
-width: 1440px;
-height: 134px;
+width: 100%;
+height: 10%;
 left: 0px;
 top: -2px;
 box-sizing: border-box;
 background: #F1ECE4;
 display: flex;
 }
-
+header *{
+    display: inline;
+}
 
 .header .logo{
     position: absolute;
@@ -43,41 +45,26 @@ top: 66px;
 display: flex;
 align-items: center;
 }
-.header .main-nav .main-menu{
-    position: absolute;
-    left: 52.08%;
-    right: 41.39%;
-    top: 6.84%;
-    bottom: 89.06%;
-    
-    font-family: Karma;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 44px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    
-    color: #351502;
+
+.header .main-nav ul{
+    list-style: none;
     
 }
-.main-menu ul li{
-    list-style-type: none;
-    display: inline;
+
+header li {
+    margin: 20px;
+    
 }
-
-
 
 .main-part{
 /* position: absolute; */
 width: 1440px;
 height: 890px;
-left: calc(50% - 1440px/2);
-top: calc(50% - 890px/2 + 65px);
 background-image: url(../images/developer.jpg);
 background: linear-gradient(0deg, rgba(36, 14, 14, 0.56), rgba(36, 14, 14, 0.56));
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
 }
 
 footer {
