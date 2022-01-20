@@ -9,32 +9,30 @@
         background-color: #13C4A3;
       }
     
-.header{
-    background: #BA0606;
-    height: 85px;
+.nav{
+    background: #13C4A3;;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.1rem ;
     z-index: 12;
-
-    margin-right: -24px;
-    
 }
 
 .header .nav .logo{
-    width: 50%;
+    
     cursor: pointer;
   font-size: 3rem;
-  text-decoration: none;
-font-weight: bold;
+  text-decoration: #152036;
+  padding-left: 2%;
+  padding-right: 3%;
+
 }
 .header .nav .main-menu{
     font-size: 1.5rem;
-    width: 50%;
+   
     display: flex;
     align-items: flex-end;
-    /* margin-right: -24px; */
+   padding: 2%;
     
   
 }
@@ -46,7 +44,7 @@ font-weight: bold;
 }
 
 .main-menu ul li a{
-    color: FFF9EB;
+    color:         #FFF9EB;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -66,18 +64,37 @@ font-weight: bold;
     width:100%;
 }
 
-.welcome_section{
+.welcome{
 /* position: absolute; */
-width: 1440px;
-height: 890px;
-background-image: url(../images/developer.jpg);
-background: linear-gradient(0deg, rgba(36, 14, 14, 0.56), rgba(36, 14, 14, 0.56));
+width: 100%;
+height: 30rem;
+background-size: cover;
+
+/* background: linear-gradient(0deg, rgba(36, 14, 14, 0.56), rgba(36, 14, 14, 0.56)); */
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 display: flex;
+align-items: center;
 }
 .header-text{
+    margin: 1%;
+    padding: auto;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border-color: #152036;
+    border: 1px solid;
 
+}
+.profile_image{
+    background-image: url(../images/developer.jpg);
+    margin: 1%;
+    padding: auto;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border-color: #152036;
+    border: 1px solid;
 }
 
 footer {
