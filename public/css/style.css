@@ -7,32 +7,35 @@
         padding: auto 0;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         background-color: #13C4A3;
+        color: #fff9ebaf;
       }
     
 .nav{
     background: #13C4A3;;
-    height: 30%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 12;
+
 }
 
 .header .nav .logo{
     font: large;
     cursor: pointer;
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: #152036;
   padding-left: 2%;
   padding-right: 3%;
-font-family: fantasy;
+font-family: Arial, Helvetica, sans-serif;
+
 }
 .header .nav .main-menu{
     font-size: 1.5rem;
    
     display: flex;
     align-items: flex-end;
-   padding: 2%;
+   padding: 1%;
     
   
 }
@@ -52,12 +55,13 @@ font-family: fantasy;
     height: 100%;
     cursor: pointer;
 }
-.main-menu ul li a:active {
-      color:#FFF9EB;
+.main-menu ul  li.active a {
+    color: #f5a425;
     }
     .main-menu ul li a:hover {
-      color: #FFF9EB;
+      color: #f5a425;
     }
+  
     
 .main-part{
     height: 100%;
@@ -68,57 +72,99 @@ font-family: fantasy;
 /* position: absolute; */
 width: 100%;
 height: 30rem;
-background-size: cover;
+background-size: initial;
 flex-direction: row;
-
+background-image: url(../images/monica.jpg) ;
 box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 display: flex;
 align-items: center;
+align-content: center;
+padding: auto;
+}
+.overlay{
+    background: linear-gradient(0deg, rgba(41, 1, 1, 0.85), rgba(41, 1, 1, 0.624));
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    align-content: center;
 }
 .header-text{
     margin: auto;
     padding: auto;
     align-items: center;
-    width: 40%;
-    background: linear-gradient(0deg, rgba(36, 14, 14, 0.337), rgba(36, 14, 14, 0));
+    width: 60%;
+    height: 80%;
+    font-size: 1.5rem;
     text-align: center;
-    border-color: #152036;
-    border: 1px solid;
-
+    /* border-color: #152036; */
+    /* border: 1px solid; */
+    color:#fff9ebaf;
+}
+.header-text p{
+    color:#fff9ebaf;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    font-size: 1.rem;
+    text-align: center;
+   padding: auto;
+ 
+   margin: auto;
+}
+.main-button{
+    margin: 2%;
+    padding: 2%;
 }
 
-.main-button a {
+.main-button .scroll-to {
     background-color: #f5a425;
-    color: #fff;
-    font-size: 13px;
+    color:#FFF9EB;
+    font-size: 60%;
+    
+
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 10%;
     font-weight: 700;
-    padding: 12px 20px;
+    padding: 2% 2%;
+    margin-left: 3%;
+    margin-right: 3%;
     display: inline-block;
     outline: none;
+    border-radius: 5px;
 }
 
 
-.profile_image{
-    background-image: url(../images/monica.jpg) ;
-    margin: auto;
-    padding: auto;
+.portfolio{
+    width: 100%;
+    height: 30rem;
+    background-size: initial;
+    flex-direction: row;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
     align-items: center;
-    width: 40%;
-    height: 100%;
-    text-align: center;
-    border-color: #152036;
-    border: 1px solid;
-    height: 100px;
-    background-size: 100px;
-    
+    align-content: center;
+  padding-top: 0.5%;
 }
+.portfolio .overlay{
+    background: linear-gradient(0deg, rgba(47, 66, 40, 0.85), rgba(47, 66, 40, 0.624));
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+    align-content: center;
+}
+
 
 footer {
     background-color: #152036;
     text-align: center;
+    height: 30%;
+    width: 100%;
 }
 
 footer p {
