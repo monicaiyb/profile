@@ -11,13 +11,16 @@
       }
     
 .nav{
-    background: #13C4A3;;
+    background: #13C4A3;
+    width: 100%;
     height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 12;
-
+    margin: auto;
+    padding: auto;
+    position: fixed;
 }
 
 .header .nav .logo{
@@ -35,7 +38,7 @@ font-family: Arial, Helvetica, sans-serif;
    
     display: flex;
     align-items: flex-end;
-   padding: 1%;
+   /* padding: 1%; */
     
   
 }
@@ -65,7 +68,8 @@ font-family: Arial, Helvetica, sans-serif;
     
 .main-part{
     height: 100%;
-    width:100%;
+    width:100%; 
+
 }
 
 .welcome{
@@ -95,7 +99,7 @@ padding: auto;
     margin: auto;
     padding: auto;
     align-items: center;
-    width: 60%;
+    width: 80%;
     height: 80%;
     font-size: 1.5rem;
     text-align: center;
@@ -108,7 +112,7 @@ padding: auto;
     align-items: center;
     width: 60%;
     height: auto;
-    font-size: 1.rem;
+    font-size: 1.2rem;
     text-align: center;
    padding: auto;
  
@@ -116,19 +120,17 @@ padding: auto;
 }
 .main-button{
     margin: 2%;
-    padding: 2%;
+   
 }
 
 .main-button .scroll-to {
     background-color: #f5a425;
     color:#FFF9EB;
     font-size: 60%;
-    
-
     text-transform: uppercase;
     letter-spacing: 10%;
-    font-weight: 700;
-    padding: 2% 2%;
+    font-weight: 70px;
+    padding: 1% 2%;
     margin-left: 3%;
     margin-right: 3%;
     display: inline-block;
@@ -143,7 +145,7 @@ padding: auto;
     background-size: initial;
     flex-direction: row;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 
     display: flex;
     align-items: center;
@@ -160,14 +162,14 @@ padding: auto;
 }
 
 
-footer {
+.footer {
     background-color: #152036;
     text-align: center;
     height: 30%;
     width: 100%;
 }
 
-footer p {
+.footer p {
     margin-bottom: 0px;
     padding: 25px 0px;
     color: #fff;
