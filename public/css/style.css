@@ -20,7 +20,7 @@
     z-index: 12;
     margin: auto;
     padding: auto;
-    position: fixed;
+    position: initial;
 }
 
 .header .nav .logo{
